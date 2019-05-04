@@ -1,4 +1,4 @@
-import cv2      #importing Open CV
+import cv2      #This is used to import Open CV
 
 FaceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -28,9 +28,9 @@ while True:
     if cv2.WaitKey(1)&0xFF == ord('q'):
         break
 
-#The above code needs the user to press 'q' to quit "You can Keep any variable instead of q"
+#The above code needs the user to press 'q' to quit "You can Keep any variable instead of 'q'"
 
 VideoCapture.release()
 cv2.destroyAllWindows()
 
-#The above code is used to terminate the video
+#The above code is used to terminate the video.
