@@ -1,4 +1,5 @@
-import cv2      #This is used to import Open CV
+import cv2      
+import numpy as np
 
 FaceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
